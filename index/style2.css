@@ -1,0 +1,359 @@
+@media screen and (max-width:760px) {
+    .main {
+        width: 350vw;
+        background-color: #efebe9;
+
+    }
+
+    .details h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4rem;
+        letter-spacing: 0.5px;
+        color: #212121;
+        text-align: left;
+        text-transform: uppercase;
+        width: 100%;
+
+    }
+
+    .details h3 {
+        margin: -1em;
+        margin-left: 1%;
+    }
+
+
+
+    .main1 {
+        width: 350vw;
+
+    }
+
+    .main1_desc {
+        width: 250vw;
+
+
+    }
+
+    .main2 {
+        width: 350vw;
+        height: 80vh;
+    }
+
+
+    .main2>div>div>h1 {
+        width: 50vw;
+
+    }
+
+    .main2>div>div>p {
+        width: 70vw;
+    }
+
+
+
+    .main2>div>div>button {
+        padding: 25px;
+        width: 70vw;
+    }
+
+
+    .main3 {
+        width: 350vw;
+
+    }
+
+    .main4 {
+        width: 350vw;
+    }
+
+    .main5 {
+        width: 350vw;
+    }
+
+    .main5_bottom>div button {
+        padding: 25px;
+        width: 70vw;
+    }
+
+    .main5_bottom>div>h3 {
+        font-size: 1.6rem;
+
+    }
+
+    .main5_bottom>div {
+        font-size: 1.2rem;
+
+
+    }
+
+    .main6 {
+        width: 350vw;
+    }
+
+    .main7 {
+        width: 350vw;
+    }
+
+    .main7 .main7_top>h1 {
+        width: 75%;
+    }
+
+    .main7 .main7_top>button {
+        padding: 25px;
+        width: 70vw;
+    }
+
+    .main7 .main7_bottom {
+        width: 100vw;
+        height: 50vh;
+    }
+
+}
+
+
+
+@media screen and (min-width:761px) and (max-width:912px) {
+
+    .main,
+    .main1,
+    .main2,
+    .main3,
+    .main4,
+    .main5,
+    .main6,
+    .main7 {
+        width: 200vw;
+
+    }
+
+
+
+
+    .main1 {
+        height: 60vh;
+    }
+
+    .main1_desc {
+        width: 160vw;
+
+    }
+
+
+    .main1_title {
+        height: 15%;
+
+    }
+
+
+    .main2 {
+        height: 50vh;
+    }
+
+
+    .main2>div>div>h1 {
+        width: 35vw;
+
+    }
+
+
+
+    .main2>div>div>p {
+        width: 40vw;
+    }
+
+
+
+    .main2>div>div>button {
+        padding: 25px;
+        width: 37vw;
+    }
+
+
+
+
+    .main4_left_bottom,
+    .main4_right img {
+        width: 90%;
+    }
+
+    .main4_main {
+        width: 70%;
+        gap: 1%;
+    }
+
+    .main4_left_top {
+        width: 40%;
+    }
+
+    .main4_left_top h1 {
+        font-size: 3rem;
+    }
+
+
+    .main5 {
+        height: 50vh;
+    }
+
+    .main5 .main5_top {
+        height: 15%;
+        /* width: 100%;
+    border: 2px solid transparent; */
+
+    }
+
+    .main5 .main5_bottom {
+        height: 100%;
+
+
+    }
+
+
+
+    .main5_bottom>div button {
+        padding: 25px;
+        width: 30vw;
+    }
+
+
+    .main5_bottom>div {
+        font-size: 1.1rem;
+    }
+
+
+    .main6 .main6_top {
+        height: 25%;
+    }
+
+    .main6 .main6_top h1 {
+        font-size: 4.8rem;
+        margin-top: 8%;
+    }
+
+
+    .main6_bottom_desc {
+        border: 1px solid black;
+        width: 30%;
+        height: 75%;
+        margin-top: 4%;
+    }
+
+    .main6 {
+        height: 70vh;
+    }
+
+    .main7 .main7_top>h1 {
+        width: 61%;
+        font-size: 2.3rem;
+
+    }
+
+    .main7 .main7_top>button {
+        padding: 25px;
+        width: 30vw;
+    }
+
+    .main7 .main7_bottom {
+        width: 60vw;
+        /* height: 65%; */
+        height: 40vh;
+        ;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+
+
+
+
+    }
+}
+
+
+
+
+
+@media screen and (max-width:414px){
+    .main5 {
+        height: 60vh;
+    }
+
+    .main5 .main5_top {
+        height: 15%;
+        /* width: 100%;
+        border: 2px solid transparent; */
+
+    }
+
+    .main,
+    .main1,
+    .main2,
+    .main3,
+    .main4,
+    .main5,
+    .main6,
+    .main7 {
+        width: 380vw;
+    }
+}
+
+
+@media screen and (max-width:280px) {
+    .main5 {
+        height: 90vh;
+    }
+
+
+    .main5 .main5_bottom {
+        height: 100%;
+
+
+    }
+
+
+    .main,
+    .main1,
+    .main2,
+    .main3,
+    .main4,
+    .main5,
+    .main6,
+    .main7 {
+        width: 400vw;
+    }
+
+}
+
+
+
+
+
+
+
+/* @media screen and (min-width:1024px) {
+
+    .main,
+    .main1,
+    .main2,
+    .main3,
+    .main4,
+    .main5,
+    .main6,
+    .main7 {
+        margin-right: 800vw;
+    }
+
+
+
+} */
+
+@media screen and (max-width:375px) {
+    .main5 {
+        height: 90vh;
+    }
+
+    .main5 .main5_top {
+        height: 25%;
+        /* width: 100%;
+    border: 2px solid transparent; */
+
+    }
+}

@@ -1,0 +1,682 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid transparent;
+    margin-top: -0.5em;
+    background-color: #efebe9;
+
+}
+
+.img1 {
+    float: right;
+    height: 100%;
+    width: 30%;
+    border: 1px solid transparent;
+    /* display: flex; */
+    /* justify-content: baseline; */
+
+}
+
+.img1 img {
+    /* margin-top: 34%; */
+    object-fit: cover;
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+}
+
+.img2 {
+    object-fit: cover;
+    width: 45%;
+    padding-bottom: 15em;
+
+}
+
+.img2 img {
+    padding-left: 2em;
+    padding-bottom: 5em;
+
+
+
+}
+
+
+.details {
+    border: 1px solid transparent;
+    width: 100%;
+    height: 40%;
+    margin-top: 5%;
+
+}
+
+.details h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6rem;
+    letter-spacing: 0.5px;
+    color: #212121;
+    text-align: left;
+    text-transform: uppercase;
+    width: 100%;
+
+}
+
+.details h3 {
+    border: 1px solid transparent;
+    margin-bottom: -2em;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    color: #424242;
+    font-size: 1.2rem;
+    font-weight: 100;
+    text-align: left;
+    margin-left: 2%;
+    text-transform: uppercase;
+    margin-right: 20%;
+    width: 100%;
+
+}
+
+a {
+    color: #424242;
+}
+
+.address {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid transparent;
+    width: 100%;
+    height: 40%;
+    margin: auto;
+    margin-top: 9%;
+
+}
+
+.mid {
+    width: 80%;
+    margin: auto;
+}
+
+.address_left {
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+
+}
+
+.address_center p {
+    margin-top: -1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+
+}
+
+
+
+.address_right {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+
+
+
+.main1 {
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid transparent;
+}
+
+.main1_title {
+    border: 1px solid transparent;
+    width: 100%;
+    height: 20%;
+
+
+
+}
+
+.main1_title h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.2px;
+    color: #212121;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.main1_desc {
+    border: 1px solid transparent;
+    width: 80vw;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: auto;
+    margin-top: 4.5em;
+
+}
+
+.main1_desc>div {
+    border: 1px solid transparent;
+    height: 40%;
+    width: 25%;
+    display: flex;
+
+
+}
+
+.main1_desc>div>div>h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1em;
+    font-size: 17px;
+
+}
+
+.main1_desc>div>div>img {
+    margin-top: 0.5em;
+
+}
+
+
+
+
+
+.main2 {
+    background-color: black;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+
+}
+
+.main2>div>div>h1,
+p,
+a {
+    color: black;
+}
+
+
+.main2>div {
+    width: 100%;
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+
+
+
+
+}
+
+.main2>div>img {
+    height: 100%;
+}
+
+.main2>div>div>h1 {
+    border: 2px solid transparent;
+    width: 19vw;
+    color: whitesmoke;
+   
+
+}
+
+.main2>div>div>p {
+    border: 2px solid transparent;
+    color: whitesmoke;
+    width: 30vw;
+    
+
+}
+
+
+.main2>div>div>p>a {
+    color: whitesmoke;
+    text-transform: capitalize;
+   
+}
+
+
+.main2>div>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.main2>div>div>button {
+    padding: 18px;
+    width: 15vw;
+    margin-top: 2em;
+    border-radius: 2em;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    text-transform: uppercase;
+    cursor: pointer;
+
+
+
+
+}
+
+.main3 {
+    height: auto;
+    width: 100vw;
+    border: 2px solid transparent;
+    background-color: #efebe9;
+   
+    
+
+}
+
+
+
+.main3>h1 {
+    text-align: center;
+    border: 1px solid transparent;
+    line-height: 1em;
+    font-size: 3rem;
+    width: 100%;
+    height: 10%;
+}
+
+
+.main3_parent{
+    border: 1px solid transparent;
+    height: auto;
+    width: 80%; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    gap: 20px;
+}
+
+
+.main3_details{
+    border: 1px solid transparent;
+    height: 90%;
+    width: 20%;
+    border-radius: 7%;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.main3_img>div{
+    border: 1px solid transparent;
+    width: 50%;
+    height: auto;
+}
+
+.main3_details>div{
+    border: 1px solid transparent;
+    width: 100%;
+    height: auto;
+}
+
+.main3_details>div>img{
+    width: 88%;
+    margin: 4%;
+    height: 84%;
+    margin-top: 6%;
+    margin-left: 6%;
+    border-radius: 10%;
+    object-fit: cover;
+    
+
+}
+
+.main3_desc{
+    text-align: center;
+
+}
+
+.main3 .main3_desc h3{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.main3 h3{
+text-align: center;
+text-transform: capitalize;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main3 p{
+    text-align: center;
+    text-transform: capitalize;
+}
+.main4{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid transparent;
+    background-color: #efebe9;
+    
+    
+}
+
+.main4_main{
+    width: 60%;
+    height: 100%;
+    border: 2px solid transparent;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    gap: 2px;
+}
+
+.main4_left{
+    width: 100%;
+    height: 100%;
+    border: 2px solid transparent;
+   display: flex;
+  
+   flex-direction: column;
+}
+
+.main4_right{
+    width: 100%;
+    height: 100%;
+    border: 2px solid transparent;
+}
+
+.main4_right img{
+width: 90%;
+height: 80%;
+object-fit: cover;
+
+}
+
+
+.main4_left_top{
+  width: 40%;
+  height: auto;
+  
+ 
+}
+
+.main4_left_top h1{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    
+   
+}
+
+.main4_left_bottom{
+    width: 90%;
+    height: 80%;
+    border: 2px solid transparent;
+    margin-right: 0px;
+   
+}
+
+.main4_left_bottom img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+
+}
+
+
+ 
+
+.main5{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid transparent;
+}
+
+
+  .main5 .main5_top{
+    height: 30%;
+    width: 100%;
+    border: 2px solid transparent;
+
+}
+
+.main5 .main5_bottom{
+    height: auto;
+    width: 100%;
+    border: 2px solid transparent;
+   
+}
+/* 
+ .main5_bottom>div{
+    height: 12%;
+    width: 80%;
+    border: 2px solid black;
+    margin: auto;
+}  */
+
+.main5_bottom>div>h3{
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.main5_bottom>div {
+    text-align: justify;
+    width: 60%;
+    border: 2px solid transparent;
+    height: auto;
+    margin: auto;
+    line-height:25px;
+    font-size: 0.9em;
+    text-transform: capitalize;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+
+}
+
+.main5_bottom>div button{
+    padding: 17px;
+    width: 14vw;
+    margin-top: 2em;
+    border-radius: 2em;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main6{
+  border: 1px solid transparent;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://img.freepik.com/free-photo/hot-chocolate-mug-sweet-muffins_23-2148238737.jpg?w=740&t=st=1677240433~exp=1677241033~hmac=8536363993c5dd370d5bfc53529655ffef157a51befaada4d386472f3f524fcc");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+
+
+.main6 .main6_top{
+    height: 30%;
+    width: 100%;
+    border: 2px solid transparent;
+    
+
+}
+
+
+.main6 .main6_top h1{
+text-align: center;
+border: 1px solid transparent;
+line-height: 1em;
+font-size: 5rem;
+width: 100%;
+height: 10%;
+color: whitesmoke;
+line-height: 10px;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: capitalize;
+margin-top: 8%;
+
+}
+
+.main6 .main6_bottom{
+border: 1px solid transparent;
+ display: flex;
+ width: 80%;
+ height: 53%;
+ margin: auto;
+ justify-content: space-evenly;
+ /* align-items: center; */
+
+}
+
+.main6_bottom_desc{
+  border: 1px solid black;
+  width: 30%;
+  height: 80%;
+  background-color: white;
+  border-radius: 5%;
+  margin-top: 2%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+
+  
+}
+
+.main6_bottom_desc h3{
+    text-transform: capitalize;
+    margin-top: 10%;
+    margin-left: 8%;
+    font-size: 1.6em;
+    letter-spacing: 0.7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.main6_bottom_desc ul{
+    margin-top: 7%;
+    margin-left: 7%;
+    
+}
+
+.main6_bottom_desc ul li{
+    list-style: circle;
+   line-height: 2em;
+   text-transform: capitalize;
+   font-size: 1em;
+   font-family: Arial, Helvetica, sans-serif;
+   letter-spacing: 0.9px;
+  
+}
+
+.main6>p>a{
+    color: whitesmoke;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.main6>p{
+    color: whitesmoke;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+.main7{
+    border: 1px solid transparent;
+    height: auto;
+    width: 100vw;
+    background-color: #efebe9;
+    
+}
+
+.main7 .main7_top{
+    border: 1px solid transparent;
+    width: 70%;
+    height: 60%;
+   margin: auto;
+   margin-top: 5%;
+   
+}
+
+.main7 .main7_top>h1{
+    width: 70%;
+    font-size: 2.4rem;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main7 .main7_top>p{
+    text-align: center;
+}
+
+.main7 .main7_top>button{
+    padding: 17px;
+    width: 14vw;
+    margin-top: 2em;
+    border-radius: 2em;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    text-align: center;
+    margin-left: 40%;
+    
+}
+
+.main7 .main7_bottom{
+    width: 45vw;
+    /* height: 65%; */
+    height: 80vh;
+    border: 1px solid transparent;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    
+    
+
+}
+
+.main7 .main7_bottom img{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+/* https://img.freepik.com/free-photo/paper-bag-with-bread-basket-pastry_23-2148359148.jpg?t=st=1677137236~exp=1677137836~hmac=d39d0e7992f40378cf078c5fdfc55edc61a819aeff3d5e738bbaab06ae2648ce */
